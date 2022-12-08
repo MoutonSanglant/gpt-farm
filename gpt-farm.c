@@ -57,6 +57,7 @@ void calculer_population(int nb_poules, int age_depart, int age_fin)
     else
       poules += poules * 0.4;
     poules = (int)poules;
+	nb_poules = poules;
 
     // Calcule le reste de la division par 26
     rot = poules % 26;
