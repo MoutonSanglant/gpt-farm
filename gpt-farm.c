@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
   int age_fin = atoi(argv[3]);
 
   // Vérifie les valeurs des paramètres
-  if (!valider_params(nb_poules, age_depart, age_fin))
+  if (valider_params(argc, argv, &nb_poules, &age_depart, &age_fin) < 1)
     return 1;
 
   // Affiche l'entête du tableau
