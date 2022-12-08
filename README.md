@@ -18,7 +18,7 @@ To compile and run this program, you will need a C compiler, such as GCC, instal
 
 To install the program, simply clone or download the repository and compile the code with your C compiler:
 
-$ git clone https://github.com/user/ferme-poule.git
+$ git clone https://github.com/MoutonSanglant/gpt-farm.git
 $ cd gpt-farm
 $ gcc gpt-farm.c -o gpt-farm
 
@@ -34,7 +34,7 @@ The program will prompt you for the initial number of chickens, the starting age
 
 ## Authors
 
-* **Your Name** - *Initial work* - [FermePoule](https://github.com/user/ferme-poule)
+* **Your Name** - *Initial work* - [GPT-Farm](https://github.com/MoutonSanglant/gpt-farm.git)
 
 ## License
 
