@@ -19,15 +19,15 @@ To compile and run this program, you will need a C compiler, such as GCC, instal
 To install the program, simply clone or download the repository and compile the code with your C compiler:
 
 $ git clone https://github.com/user/ferme-poule.git
-$ cd ferme-poule
-$ gcc ferme-poule.c -o ferme-poule
+$ cd gpt-farm
+$ gcc gpt-farm.c -o gpt-farm
 
 
 ### Running
 
 To run the program, use the following command:
 
-$ ./ferme-poule
+$ ./gpt-farm
 
 
 The program will prompt you for the initial number of chickens, the starting age of the farmer, and the ending age of the farmer. Once you have entered this information, the program will output a table showing the population of chickens for each year.
